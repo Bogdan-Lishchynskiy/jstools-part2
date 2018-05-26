@@ -1,0 +1,36 @@
+{
+  "name": "jstools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-cli",
+    "watch": "webpack-cli --watch",
+    "message": "echo 'Pre commit started..'",
+    "lint": "./node_modules/.bin/eslint ./",
+    "csslint": "stylelint ./**/*.css",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "csslint": "^1.0.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "lodash": "^4.17.10",
+    "pre-commit": "^1.2.2",
+    "stylelint": "^9.2.1",
+    "stylelint-config-standard": "^18.2.0",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,4 +1,4 @@
-# jstools-part1(Webpack Practise)
+# jstools-part2(Webpack Practise)
 ## Some simple tasks with webpack(bundler file)
 * Create project using npm, git, webpack
 * Add JS bundler
